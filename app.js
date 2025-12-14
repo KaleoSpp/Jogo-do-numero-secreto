@@ -3,7 +3,6 @@ let listasNumerosSortidos = [];
 let = numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa = 1;
-console.log(numeroSecreto);
 
 //função para gerar um número aleatório entre 1 e 10
 function gerarNumeroAleatorio() {
@@ -75,5 +74,4 @@ function verificarChute() {
         tentativa = 1;
         limparCampo();
         document.getElementById('reiniciar').setAttribute('disabled', true);
-        console.log(numeroSecreto);
     }
